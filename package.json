@@ -4,7 +4,8 @@
   "description": "Demo App for trial.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/vaibhavmehrotra94/RestAPI/issues"
   },
-  "homepage": "https://github.com/vaibhavmehrotra94/RestAPI#readme"
+  "homepage": "https://github.com/vaibhavmehrotra94/RestAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14"
+  }
 }
